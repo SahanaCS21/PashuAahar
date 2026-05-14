@@ -5,6 +5,7 @@ AI Driven Smart Cattle Nutrition System
 PashuAahar is an Android-based smart cattle management application designed to help farmers and dairy owners maintain better cattle health, nutrition, and veterinary care. The application provides AI-inspired feed management, health monitoring, and veterinary guidance in a simple and user-friendly interface.
 
 
+
 🚀 Features
 
 🔐 Firebase Authentication
@@ -27,6 +28,7 @@ PashuAahar is an Android-based smart cattle management application designed to h
 * Track feed expenses
 * Monitor daily/weekly costs
 * Better financial management for farmers
+
 
 
  🩺 Veterinary Care Dashboard
@@ -78,8 +80,11 @@ PashuAahar is an Android-based smart cattle management application designed to h
 * Nutrition Advice
 * Emergency Symptoms
 
+
 🎯 Project Objective
+
 The main objective of this project is to provide a smart and user-friendly digital solution for cattle nutrition and healthcare management. The application helps farmers improve cattle productivity, health monitoring, and feeding management using modern Android technologies.
+
 
 🔥 Future Enhancements
 * AI-based Feed Recommendation System
@@ -90,8 +95,12 @@ The main objective of this project is to provide a smart and user-friendly digit
 * Farmer Community Support
 * Milk Production Tracking
 
+
 👨‍💻 Developed By
+
 Sahana CS
 
+
 📌 GitHub Repository
+
 PashuAahar – AI Driven Smart Cattle Nutrition System 🚀
