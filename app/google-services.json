@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "9549903699",
+    "project_id": "pashuaahar-ec341",
+    "storage_bucket": "pashuaahar-ec341.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9549903699:android:69953bc49c71de54b593a6",
+        "android_client_info": {
+          "package_name": "com.example.pashuaahar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt5LrbPs8M0WHLED3URixl8HithGQl6BQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

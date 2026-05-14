@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PashuAahar">
+
+        <!-- LOGIN SCREEN -->
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <!-- REGISTER SCREEN -->
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- MAIN DASHBOARD -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- COW PROFILE -->
+
+        <activity
+            android:name=".CowProfileActivity"
+            android:exported="false" />
+
+        <!-- FEED RESULT -->
+
+        <activity
+            android:name=".FeedResultActivity"
+            android:exported="false" />
+
+        <!-- COST TRACKER -->
+
+        <activity
+            android:name=".CostTrackerActivity"
+            android:exported="false" />
+
+        <!-- VETERINARY DASHBOARD -->
+
+        <activity
+            android:name=".VeterinaryActivity"
+            android:exported="false" />
+
+        <!-- DAILY HEALTH -->
+
+        <activity
+            android:name=".DailyHealthActivity"
+            android:exported="false" />
+
+        <!-- VACCINATION -->
+
+        <activity
+            android:name=".VaccinationActivity"
+            android:exported="false" />
+
+        <!-- NUTRITION ADVICE -->
+
+        <activity
+            android:name=".NutritionAdviceActivity"
+            android:exported="false" />
+
+        <!-- EMERGENCY SYMPTOMS -->
+
+        <activity
+            android:name=".EmergencySymptomsActivity"
+            android:exported="false" />
+
+        <!-- ANALYTICS -->
+
+        <activity
+            android:name=".AnalyticsActivity"
+            android:exported="false" />
+
+        <!-- SPLASH SCREEN -->
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

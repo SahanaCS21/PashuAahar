@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌾 Nutrition Advice"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- CARD 1 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌿 Green Fodder Importance"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green fodder provides essential vitamins and minerals for cattle.
+
+Fresh grass improves digestion and increases milk production.
+
+Daily green fodder intake keeps cattle active and healthy.
+
+Avoid feeding spoiled or moldy fodder because it can cause illness.
+
+Seasonal fodder planning helps maintain consistent nutrition.
+
+Proper fodder storage prevents nutrient loss."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- CARD 2 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥛 Protein-Rich Feed"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Protein is essential for muscle growth and milk yield.
+
+Cottonseed cake and soybean meal are good protein sources.
+
+High-yield cattle require additional protein intake.
+
+Balanced protein improves cattle immunity and recovery.
+
+Avoid excessive protein because it may affect digestion.
+
+Monitor feed quantity according to cattle age and weight."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- CARD 3 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🧂 Mineral Supplements"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mineral mixtures strengthen bones and improve fertility.
+
+Calcium supports strong bones and milk production.
+
+Salt supplements improve appetite and digestion.
+
+Deficiency of minerals can reduce productivity.
+
+Provide mineral supplements regularly for balanced nutrition.
+
+Consult veterinarians for proper supplement dosage."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- CARD 4 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💧 Water and Hydration"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Water is essential for digestion and body temperature regulation.
+
+Milk-producing cattle require higher water intake daily.
+
+Clean water reduces disease risks and improves health.
+
+Dehydration causes weakness and reduced milk production.
+
+Provide water after feeding for better digestion.
+
+Ensure water availability during all seasons."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- CARD 5 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🐄 Feeding Schedule"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feed cattle at regular timings every day.
+
+Maintain separate feeding plans for calves and adult cattle.
+
+Avoid sudden feed changes because it affects digestion.
+
+Balanced feeding schedules improve milk consistency.
+
+Morning and evening feeding are commonly recommended.
+
+Track feed intake for better nutrition management."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

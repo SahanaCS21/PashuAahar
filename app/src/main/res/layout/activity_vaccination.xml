@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💉 Vaccination Reminder"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- VACCINE 1 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🐄 Foot and Mouth Disease (FMD)"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FMD is a highly contagious viral disease affecting cattle.
+
+Vaccination should be done every 6 months for better protection.
+
+Symptoms include fever, mouth ulcers, and difficulty walking.
+
+Regular vaccination prevents major milk production losses.
+
+Isolate infected cattle immediately to stop disease spread.
+
+Always maintain proper hygiene in cattle sheds."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- VACCINE 2 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🦠 Hemorrhagic Septicemia (HS)"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HS commonly occurs during rainy seasons.
+
+Vaccination should be done once every year before monsoon.
+
+Symptoms include high fever, breathing difficulty, and swelling.
+
+Early vaccination helps reduce sudden cattle deaths.
+
+Provide clean water and dry shelter to reduce infection risks.
+
+Consult veterinarians immediately if symptoms appear."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- VACCINE 3 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💉 Black Quarter (BQ)"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BQ mainly affects young cattle between 6 months and 2 years.
+
+Vaccination should be done annually before rainy season.
+
+Symptoms include swelling in muscles and high fever.
+
+The disease spreads quickly in wet and muddy areas.
+
+Immediate treatment is necessary to avoid fatalities.
+
+Proper sanitation reduces bacterial contamination."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- VACCINE 4 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🐮 Brucellosis Vaccine"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brucellosis affects cattle fertility and milk production.
+
+Female calves are usually vaccinated between 4–8 months.
+
+The disease can spread from animals to humans.
+
+Symptoms include abortion and reproductive problems.
+
+Vaccination helps maintain healthy breeding cattle.
+
+Use protective equipment while handling infected animals."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- VACCINE 5 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📅 Vaccination Schedule Tips"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maintain a proper vaccination calendar for all cattle.
+
+Record vaccine dates and next due dates carefully.
+
+Never skip booster doses recommended by veterinarians.
+
+Vaccinate healthy cattle only for better immunity response.
+
+Store vaccines at proper temperatures before use.
+
+Regular vaccination improves cattle productivity and safety."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

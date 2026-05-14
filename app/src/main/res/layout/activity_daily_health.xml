@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💚 Daily Health Tips"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- TIP 1 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💧 Provide Clean Water"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Always provide fresh and clean drinking water for cattle throughout the day.
+
+Water containers should be cleaned daily to prevent bacterial growth.
+
+Dehydration can reduce milk production, weight gain, and overall health.
+
+During summer, cattle require more water to stay cool and healthy.
+
+Avoid stagnant or dirty water because it may spread diseases.
+
+Adding water near feeding areas encourages regular drinking habits."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- TIP 2 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🧹 Maintain Clean Shelter"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clean cattle sheds regularly to remove dung, urine, and waste materials.
+
+Dry and hygienic floors help prevent hoof infections and skin diseases.
+
+Proper drainage systems reduce foul smell and mosquito breeding.
+
+Bedding materials like straw should be changed frequently.
+
+Clean shelters improve comfort, reduce stress, and increase productivity.
+
+Regular disinfection helps control bacteria and harmful parasites."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- TIP 3 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌾 Balanced Nutrition"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Provide a balanced diet with green fodder, dry fodder, grains, and minerals.
+
+Protein-rich feed supports muscle growth and milk production.
+
+Mineral mixtures strengthen bones and improve immunity.
+
+Overfeeding or underfeeding can negatively affect cattle health.
+
+Fresh fodder improves digestion and energy levels.
+
+Nutritional supplements may be given during pregnancy or lactation."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- TIP 4 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🩺 Regular Health Checkups"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Schedule routine veterinary checkups for early disease detection.
+
+Vaccinations protect cattle from dangerous infections and outbreaks.
+
+Deworming should be done regularly to control internal parasites.
+
+Monitor cattle for symptoms like loss of appetite, fever, or weakness.
+
+Quick treatment reduces the spread of diseases among animals.
+
+Maintain health records for better monitoring and care."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- TIP 5 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="☀️ Proper Ventilation"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ensure cattle sheds have enough airflow and natural light.
+
+Good ventilation reduces heat stress during hot weather.
+
+Proper air circulation lowers moisture and prevents respiratory diseases.
+
+Fans or cooling systems can be used in summer for extra comfort.
+
+Avoid overcrowding because it increases heat and infection risks.
+
+Fresh air helps cattle remain active, healthy, and productive."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

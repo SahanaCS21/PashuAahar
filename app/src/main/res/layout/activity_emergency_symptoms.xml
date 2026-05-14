@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🚨 Emergency Symptoms"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#B71C1C"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- CARD 1 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#D32F2F"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌡️ High Fever"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="High body temperature may indicate serious infection.
+
+Symptoms include weakness, shivering, and reduced appetite.
+
+Fever can spread quickly among cattle if untreated.
+
+Provide clean water and isolate infected animals.
+
+Avoid exposure to extreme weather conditions.
+
+Consult a veterinarian immediately for treatment."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- CARD 2 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#D32F2F"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😷 Breathing Difficulty"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rapid or difficult breathing may indicate respiratory infection.
+
+Poor ventilation can worsen breathing problems.
+
+Watch for coughing, nasal discharge, or wheezing.
+
+Keep cattle in clean and well-ventilated areas.
+
+Avoid overcrowding inside sheds.
+
+Seek veterinary assistance immediately if breathing worsens."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- CARD 3 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#D32F2F"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥛 Sudden Drop in Milk Production"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sudden milk reduction may indicate illness or stress.
+
+Poor nutrition and dehydration affect milk production.
+
+Monitor feed quality and water intake carefully.
+
+Check for fever, mastitis, or infections.
+
+Maintain proper feeding schedules.
+
+Consult veterinarians if production continues decreasing."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- CARD 4 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#D32F2F"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍽️ Loss of Appetite"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loss of appetite is an early sign of health problems.
+
+Digestive disorders and infections reduce feeding behavior.
+
+Observe cattle eating habits regularly.
+
+Provide fresh feed and clean water.
+
+Avoid spoiled or contaminated feed materials.
+
+Immediate treatment prevents severe weakness."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+        <!-- CARD 5 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#D32F2F"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🚑 Emergency Care Tips"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isolate sick cattle immediately from healthy animals.
+
+Maintain emergency veterinary contact numbers.
+
+Monitor symptoms carefully and record changes.
+
+Keep first-aid supplies available in cattle sheds.
+
+Do not administer medicines without veterinary guidance.
+
+Early treatment reduces mortality and disease spread."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

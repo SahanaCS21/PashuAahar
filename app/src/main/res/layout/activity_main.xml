@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- TOP LOGO -->
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/cow_logo"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+
+        <!-- APP TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pashu-Aahar"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp" />
+
+        <!-- SUBTITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Cattle Nutrition System"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#546E7A"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp" />
+
+        <!-- STATUS CARD -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E8F5E9"
+            android:orientation="horizontal"
+            android:padding="18dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🟢 AI Feed Recommendation Active"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2E7D32" />
+
+        </LinearLayout>
+
+        <!-- COW PROFILE CARD -->
+
+        <LinearLayout
+            android:id="@+id/btnCowProfile"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:layout_marginBottom="18dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🐄"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cow Profile"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter cattle information"
+                android:textSize="15sp"
+                android:textColor="#546E7A"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+
+        <!-- FEED CARD -->
+
+        <LinearLayout
+            android:id="@+id/feedCard"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:layout_marginBottom="18dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌾"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feed Calculator"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balanced nutrition planning"
+                android:textSize="15sp"
+                android:textColor="#546E7A"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+
+        <!-- COST TRACKER CARD -->
+
+        <LinearLayout
+            android:id="@+id/costCard"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:layout_marginBottom="18dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💰"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cost Tracker"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monitor feed expenses"
+                android:textSize="15sp"
+                android:textColor="#546E7A"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+
+        <!-- VETERINARY CARD -->
+
+        <LinearLayout
+            android:id="@+id/veterinaryCard"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🩺"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Veterinary Tips"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily cattle care guidance"
+                android:textSize="15sp"
+                android:textColor="#546E7A"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+        n
+    </LinearLayout>
+
+</ScrollView>

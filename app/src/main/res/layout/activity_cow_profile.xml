@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- ICON -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🐄"
+            android:textSize="52sp"
+            android:layout_gravity="center"/>
+
+        <!-- TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cow Profile"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <!-- SUBTITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter cattle information for feed recommendation"
+            android:textSize="16sp"
+            android:textColor="#607D8B"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- FORM CARD -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="24dp">
+
+            <!-- BREED -->
+
+            <EditText
+                android:id="@+id/etBreed"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Cow Breed"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:background="#EEF5EE"
+                android:layout_marginBottom="18dp"
+                android:textColor="#000000"
+                android:textColorHint="#607D8B"/>
+
+            <!-- AGE -->
+
+            <EditText
+                android:id="@+id/etAge"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Age"
+                android:inputType="number"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:background="#EEF5EE"
+                android:layout_marginBottom="18dp"
+                android:textColor="#000000"
+                android:textColorHint="#607D8B"/>
+
+            <!-- WEIGHT -->
+
+            <EditText
+                android:id="@+id/etWeight"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Weight (kg)"
+                android:inputType="numberDecimal"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:background="#EEF5EE"
+                android:layout_marginBottom="18dp"
+                android:textColor="#000000"
+                android:textColorHint="#607D8B"/>
+
+            <!-- MILK YIELD -->
+
+            <EditText
+                android:id="@+id/etMilkYield"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Milk Yield (liters/day)"
+                android:inputType="numberDecimal"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:background="#EEF5EE"
+                android:layout_marginBottom="28dp"
+                android:textColor="#000000"
+                android:textColorHint="#607D8B"/>
+
+            <!-- BUTTON -->
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="Generate Recommendation"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
